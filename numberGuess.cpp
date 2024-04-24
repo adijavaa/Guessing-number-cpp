@@ -21,8 +21,6 @@ void guessNum(int& num, int p) {
 }
 
 int main() {
-    srand(time(0)); // Seed the random number generator
-
     int myGuess, autonum;
     bool start = true;
 
